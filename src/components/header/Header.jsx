@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
-import intro from "../../assets/illustration-intro.svg"
+import intro from "../../assets/illustration-intro.svg";
 
 function Header() {
   return (
@@ -34,14 +34,14 @@ function Header() {
             <h1 className="header_title">
               Bring everyone together to build better products.
             </h1>
-            <p>Manage makes it simple for software teams to plan day-by-day tasks
-              while keeping the larger team goals in view.</p>
-            <button className="button">
-              
-            </button>
+            <p>
+              Manage makes it simple for software teams to plan day-by-day tasks
+              while keeping the larger team goals in view.
+            </p>
+            <button className="button"></button>
           </div>
           <div>
-            <img src={intro}/>
+            <img src={intro} />
           </div>
         </div>
       </div>
