@@ -1,34 +1,40 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
 import intro from "../../assets/illustration-intro.svg";
+import hamburger from "../../assets/icon-hamburger.svg";
+import "./header.css";
 
 function Header() {
   return (
     <section id="header">
       <div className="header_container container">
-        <a href="#">
-          <img src={logo} />
-        </a>
         <div className="nav_container">
+          <a href="#">
+            <img className="logo" src={logo} />
+          </a>
+          <img className="icon_hamgurger" src={hamburger}/>
+          <button className="nav_toggle">
+          <span className="hidden"></span>
+        </button>
           <ul className="nav_list" role="list">
-            <il>
+            <li>
               <a href="#">Pricing</a>
-            </il>
-            <il>
+            </li>
+            <li>
               <a href="#">Product</a>
-            </il>
-            <il>
+            </li>
+            <li>
               <a href="#">About Us</a>
-            </il>
-            <il>
+            </li>
+            <li>
               <a href="#">Careers</a>
-            </il>
-            <il>
-              <a href="#">Comunity</a>
-            </il>
+            </li>
+            <li>
+              <a href="#">Community</a>
+            </li>
           </ul>
+          <button className="button">Get Started</button>
         </div>
-        <button className="button">Get Started</button>
         <div className="main_header even_columns">
           <div className="header_text">
             <h1 className="header_title">

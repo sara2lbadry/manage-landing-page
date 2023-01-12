@@ -1,0 +1,55 @@
+.header_container{
+
+}
+.logo {
+    width: 110px;
+
+}
+.nav_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_list{
+    display: flex;
+
+}
+.nav_list li{
+    display: flex;
+    align-items: center;
+    padding: 1.2rem;
+    font-weight: 500;
+    font-size: var(--fz-500);
+    transition: var(--transition);
+
+}
+.nav_list li:hover {
+    color: var(--color-neutral-blue);
+
+}
+
+.nav_toggle {
+    display: none;
+}
+
+.icon_hamgurger {
+    display: none;
+    width: 20px;
+}
+
+@media (max-width: 50em) {
+    .nav_container ul, button{
+        display: none;
+    }
+   
+    .nav_toggle{
+        display: block;
+        cursor: pointer;
+        background: transparent;
+        padding: 0.5em;
+    }
+    .icon_hamgurger{
+        display: block;
+    }
+    
+}

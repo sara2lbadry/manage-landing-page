@@ -50,13 +50,14 @@ a {
 
 .button {
   border-radius: 100vmax;
-  padding: 1em 1.75em;
+  padding: 1em 2.5em;
   font-weight: 600;
-  font-size: var(--fz-400);
+  font-size: var(--fz-300);
   color: var(--color-neutral-pale);
   background-color: var(--color-primary-red);
   cursor: pointer;
   box-shadow: 0 1.125em 1em -1em var(--color-primary-red);
+  transition: var(--transition);
 }
 
 .button:hover {
@@ -89,6 +90,8 @@ a {
     --fz-primary-heading: var(--fz-800);
     --fz-heading: var(--fz-700);
     --fz-button: var(--fz-300);
+
+    --transition: all 0.3s ease-in;
 }
 
 @media (min-width: 50rem) {
