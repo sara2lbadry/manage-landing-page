@@ -39,9 +39,36 @@ img {
 html {
   scroll-behavior: smooth;
 }
+section {
+  padding-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  border-radius: 100vmax;
+  padding: 1em 1.75em;
+  font-weight: 600;
+  font-size: var(--fz-400);
+  color: var(--color-neutral-pale);
+  background-color: var(--color-primary-red);
+  cursor: pointer;
+  box-shadow: 0 1.125em 1em -1em var(--color-primary-red);
+}
+
+.button:hover {
+  background-color: var(--color-primary-tint);
+
+}
+
 
 :root {
     --color-primary-red: hsl(12, 88%, 59%);
+    --color-primary-tint: hsl(12, 88%, 75%);
+
     --color-primary-blue: hsl(228, 39%, 23%);
 
     --color-neutral-blue: hsl(227, 12%, 61%);
