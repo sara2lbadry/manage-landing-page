@@ -29,7 +29,7 @@ function Header() {
           </ul>
         </div>
         <button className="button">Get Started</button>
-        <div className="main_header">
+        <div className="main_header even_columns">
           <div className="header_text">
             <h1 className="header_title">
               Bring everyone together to build better products.

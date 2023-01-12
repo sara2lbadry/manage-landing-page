@@ -2,6 +2,8 @@
 
 body {
   font-family: "Be Vietnam Pro", sans-serif;
+  background-color: var(--color-neutral-light);
+  color: var(--color-primary-blue);
 }
 
 * {
@@ -16,8 +18,16 @@ body {
 }
 
 .container {
+  --max-width: 1440px;
+  --padding: 1rem;
+
+  width: min(var(--max-width), 100% - var(--padding));
   margin: 0 auto;
-  max-width: 1440px;
+
+}
+.even_columns {
+  display: grid;
+  gap: 1rem;
 }
 
 img {
@@ -61,5 +71,9 @@ html {
         --fz-heading: var(--fz-800);
 
         --fz-nav: var(--fz-300);
+    }
+    .even_columns{
+      grid-auto-flow: column;
+      grid-auto-columns: 1fr;
     }
 }
