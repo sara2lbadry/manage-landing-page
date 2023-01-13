@@ -1,19 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/logo.svg";
 import intro from "../../assets/illustration-intro.svg";
 import hamburger from "../../assets/icon-hamburger.svg";
 import "./header.css";
 
 function Header() {
+  const [opened, setOpened] = useState(false)
+  
   return (
     <section id="header">
       <div className="header_container container">
-        <div className="nav_container">
+        <div className="nav_container" id={opened? "menu" : ""}>
           <a href="#">
             <img className="logo" src={logo} />
           </a>
+          <button className="nav_toggle" onClick={()=> setOpened(!opened)}>
           <img className="icon_hamgurger" src={hamburger}/>
-          <button className="nav_toggle">
           <span className="hidden"></span>
         </button>
           <ul className="nav_list" role="list">

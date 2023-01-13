@@ -51,5 +51,21 @@
     .icon_hamgurger{
         display: block;
     }
+    #menu ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color-neutral-light);
+        inset: 7rem 1rem auto;
+        border-radius: 0.2rem;
+        padding: 1rem 0;
+    }
+    #menu ul li {
+        font-weight: 600;
+        padding: 0.9rem;
+    }
+
     
 }
