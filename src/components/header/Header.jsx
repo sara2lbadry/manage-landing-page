@@ -51,9 +51,9 @@ function Header() {
               Manage makes it simple for software teams to plan day-by-day tasks
               while keeping the larger team goals in view.
             </p>
-            <button className="button"></button>
+            <button className="button" style={{marginTop: "3rem"}}>Get Started</button>
           </div>
-          <div>
+          <div className="intro-img">
             <img src={intro} />
           </div>
         </div>
