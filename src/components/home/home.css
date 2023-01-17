@@ -1,0 +1,40 @@
+#home {
+  margin-top: 5rem;
+}
+
+.home_title {
+  font-size: 2.8rem;
+}
+.home_desc p {
+  color: var(--color-neutral-blue);
+  max-width: 35ch;
+  font-size: var(--fz-600);
+  margin-top: 1.8rem;
+  line-height: 2.2rem;
+}
+
+.number_list li {
+  margin-bottom: 3.5rem;
+  font-size: var(--fz-600);
+  color: var(--color-neutral-blue);
+}
+
+.list_title {
+  margin-bottom: 1.8rem;
+  color: var(--color-primary-blue);
+  display: flex;
+  gap: 2rem;
+}
+.list_title span {
+  background-color: var(--color-primary-red);
+  font-size: var(--fz-500);
+  font-weight: 400;
+  padding: 0.5rem 1.3rem;
+  border-radius: 2.8rem;
+  color: white;
+}
+.number_list li p {
+  margin-left: 6rem;
+  max-width: 42ch;
+  line-height: 2rem;
+}

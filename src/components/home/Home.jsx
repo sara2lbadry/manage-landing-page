@@ -17,7 +17,7 @@ function Home() {
           <div className="list_conatiner">
             <ul className="number_list">
               <li>
-                <h3 className="list_title">Track company-wide progress</h3>
+                <h3 className="list_title"><span>01</span>Track company-wide progress</h3>
                 <p>
                   See how your day-to-day tasks fit into the wider vision. Go
                   from tracking progress at the milestone level all the way done
@@ -26,7 +26,7 @@ function Home() {
                 </p>
               </li>
               <li>
-                <h3 className="list_title">Advanced built-in reports</h3>
+                <h3 className="list_title"><span>02</span>Advanced built-in reports</h3>
                 <p>
                   Set internal delivery estimates and track progress toward
                   company goals. Our customisable dashboard helps you build out
@@ -34,7 +34,7 @@ function Home() {
                 </p>
               </li>
               <li>
-                <h3 className="list_title">Everything you need in one place</h3>
+                <h3 className="list_title"><span>03</span>Everything you need in one place</h3>
                 <p>
                   Stop jumping from one service to another to communicate, store
                   files, track tasks and share documents. Manage offers an
