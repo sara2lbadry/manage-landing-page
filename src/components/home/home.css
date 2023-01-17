@@ -23,6 +23,7 @@
   margin-bottom: 1.8rem;
   color: var(--color-primary-blue);
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 .list_title span {
@@ -32,9 +33,35 @@
   padding: 0.5rem 1.3rem;
   border-radius: 2.8rem;
   color: white;
+  display: flex;
+  align-items: center;
 }
 .number_list li p {
   margin-left: 6rem;
   max-width: 42ch;
   line-height: 2rem;
+}
+
+@media (max-width: 50em) {
+  .home_desc {
+    text-align: center;
+  }
+  .home_title {
+    font-size: var(--fz-700);
+    margin: 0 1.2rem;
+  }
+
+  .list_title {
+    gap: 0;
+    font-size: var(--fz-500);
+    background-color: var(--color-neutral-pale);
+    margin-bottom: 1rem;
+  }
+  .list_title span {
+    margin-right: 0.7rem;
+  }
+
+  .number_list li p {
+    margin-left: 0.6rem;
+  }
 }
